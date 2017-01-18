@@ -15,7 +15,7 @@ public class ShapeFactory {
    public int width = 25;
    public int height = 25;
 
-
+//vibor formi figuri i cveta
    public ShapeFactory(int shape_type) {
       switch(shape_type / 10) {
       case 1:
@@ -68,7 +68,7 @@ public class ShapeFactory {
       }
 
    }
-
+//metod sozdanija zvezdi
    private static Shape createStar(int arms, Point center, double rOuter, double rInner) {
       double angle = 3.141592653589793D / (double)arms;
       GeneralPath path = new GeneralPath();

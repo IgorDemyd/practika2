@@ -17,7 +17,7 @@ public class TitlesPanel extends JPanel implements ActionListener {
    private int start_angle = 0;
    private int shape;
 
-
+//zadanie znachenij dla nachala animacii
    public TitlesPanel(int _shape) {
       this.shape = _shape;
       this.animation = new Timer(50, this);
@@ -62,7 +62,7 @@ public class TitlesPanel extends JPanel implements ActionListener {
 
       this.is_done = true;
    }
-
+//peretacha otrabotanih znachenij v shate factory
    public void paintComponent(Graphics g) {
       super.paintComponent(g);
       this.doDrawing(g);
